@@ -56,15 +56,55 @@
 		5E761968281D613C0003430D /* KVO&KVCTestProject */ = {
 			isa = PBXGroup;
 			children = (
-				5E761969281D613C0003430D /* AppDelegate.swift */,
-				5E76196B281D613C0003430D /* SceneDelegate.swift */,
-				5E76196D281D613C0003430D /* ViewController.swift */,
-				5E76196F281D613C0003430D /* Main.storyboard */,
-				5E761972281D613E0003430D /* Assets.xcassets */,
-				5E761974281D613E0003430D /* LaunchScreen.storyboard */,
 				5E761977281D613E0003430D /* Info.plist */,
+				5E761980281D637D0003430D /* Resource */,
+				5E761981281D638D0003430D /* Source */,
 			);
 			path = "KVO&KVCTestProject";
+			sourceTree = "<group>";
+		};
+		5E76197D281D63290003430D /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				5E76196F281D613C0003430D /* Main.storyboard */,
+				5E761974281D613E0003430D /* LaunchScreen.storyboard */,
+			);
+			path = Storyboards;
+			sourceTree = "<group>";
+		};
+		5E76197E281D633E0003430D /* App */ = {
+			isa = PBXGroup;
+			children = (
+				5E761969281D613C0003430D /* AppDelegate.swift */,
+				5E76196B281D613C0003430D /* SceneDelegate.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		5E76197F281D63490003430D /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				5E76196D281D613C0003430D /* ViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		5E761980281D637D0003430D /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+				5E761972281D613E0003430D /* Assets.xcassets */,
+				5E76197D281D63290003430D /* Storyboards */,
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		5E761981281D638D0003430D /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				5E76197E281D633E0003430D /* App */,
+				5E76197F281D63490003430D /* Controllers */,
+			);
+			path = Source;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
